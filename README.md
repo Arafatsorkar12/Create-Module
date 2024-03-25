@@ -4,7 +4,7 @@ Module Create Documentation
 # Create Module Name and File 
 
 modules
-├── CRN
+├── CRM
 │   ├── Controllers
 │   ├── database
 │   ├── Models  

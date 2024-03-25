@@ -28,6 +28,8 @@ File Location in Permission Module ,
         ];
     }
 
+N:B php artisan Permission:seed 
+
 
 
 

@@ -150,6 +150,18 @@ Main Resource Sidebar in
 
   :::N:B  This siderbar location (partials.__sidebar_CRM) in CRM MOdule custom Sidebar 
 
-  
+
+
+
+
+
+
+
+
+# In Composer.json
+	"psr-4": {
+            "Module\\": "module/",
+            "App\\": "app/"
+        }
 
 

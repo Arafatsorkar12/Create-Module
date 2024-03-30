@@ -48,7 +48,7 @@ command -> php artisan make:provider CRMServiceProvider
 
   
   confic / app.php 
-  File Location: Regi -> Module\CRM\Providers\NagarikServiceProvider::class,
+  File Location: Regi -> Module\CRM\Providers\CRMServiceProvider::class,
 
   
   work :: 

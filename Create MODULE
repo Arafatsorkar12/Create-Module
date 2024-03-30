@@ -19,7 +19,7 @@ modules
 ## Module seed 
 ModuleTableSeeder
 File Location in Permission Module ,
-```PHP
+ 
  private function getModules()
     {
         return [
@@ -27,7 +27,7 @@ File Location in Permission Module ,
             ['id' => '150001',  'status' => '1', 'name' => 'CRM'],
         ];
     }
-```
+ 
 N:B php artisan Permission:seed 
 
 

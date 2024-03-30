@@ -1,8 +1,12 @@
+
+
+
+
 # Create-Module
 Module Create Documentation 
 
 # Create Module Name and File 
-
+```PHP
 modules
 ├── CRM
 │   ├── Controllers
@@ -12,27 +16,7 @@ modules
 │   ├── Views
 │   ├── Routes
 │   └── Service
-
-# Create Module Name and File 
-
-
-
-# Create-Module
-Module Create Documentation 
-
-# Create Module Name and File 
-
-modules
-├── CRM
-│   ├── Controllers
-│   ├── database
-│   ├── Models  
-│   ├── Providers
-│   ├── Views
-│   ├── Routes
-│   └── Service
-
-
+```
 
 
 ## Module seed 

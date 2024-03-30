@@ -74,7 +74,7 @@ command -> php artisan make:provider CRMServiceProvider
            └── CRMServiceProvider.php 
 ```
   code -> 
-
+```PHP
 <?php
 namespace Module\CRM\Providers;
 use Illuminate\Support\ServiceProvider;
@@ -91,7 +91,7 @@ class PermissionServiceProvider extends ServiceProvider
         ]);
     }
 }
-
+```
 N:B ::::: namespace Importent issue
 
 
@@ -106,7 +106,7 @@ N:B ::::: namespace Importent issue
 
 
 # ROUTe LOcation  in  RouteServiceProvider
-
+```PHP
     protected $CRN   = '';
 
  protected function mapModuleRoutes(){
@@ -121,13 +121,13 @@ N:B ::::: namespace Importent issue
 
 
 
-            
+   ```         
 
 
 
   # view path add 
   confic/view 
-
+```PHP
    'paths' => [
         resource_path('views'), //Root
         base_path('module/Account/views'), //Account Module
@@ -137,7 +137,7 @@ N:B ::::: namespace Importent issue
         base_path('module/CRM/views'), // CRM Module
     ],
 
-
+```
  
 
 
@@ -145,11 +145,11 @@ N:B ::::: namespace Importent issue
 
 
 Main Resource Sidebar in 
-
+```PHP
  @if($modules->where('name', 'CRM')->first())
                 @include('partials.__sidebar_CRM')
   @endif
-
+```
 
   :::N:B  This siderbar location (partials.__sidebar_CRM) in CRM MOdule custom Sidebar 
 
@@ -162,9 +162,10 @@ Main Resource Sidebar in
 
 
 # In Composer.json
+```PHP
 	"psr-4": {
             "Module\\": "module/",
             "App\\": "app/"
         }
 
-
+```

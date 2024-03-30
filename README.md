@@ -52,7 +52,7 @@ command -> php artisan make:provider CRMServiceProvider
 
   
   work :: 
-  
+  ```PHP
     use Module\CRM\Providers\CRMServiceProvider;
   
     public function configureModuleProvider()
@@ -66,13 +66,13 @@ command -> php artisan make:provider CRMServiceProvider
             $this->app->bind(CRMServiceProvider::class);
         }
     }
-
+```
 
     # Service Include in Module 
-
+```PHP
     ├── Service
            └── CRMServiceProvider.php 
-
+```
   code -> 
 
 <?php
